@@ -26,4 +26,4 @@ Cette section présente une analyse descriptive du dataset d’images.
 - API REST
 - Visualisation : Dashboard
   
-![Architecture](archi.png)
+![Architecture](architecture.PNG)
