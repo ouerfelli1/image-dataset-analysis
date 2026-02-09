@@ -2,7 +2,7 @@
 # Titre du projet : Classfication des images médicales 
 
 ## Objectif
-Décrire brièvement l’objectif du projet: une application web basée sur un modèle CNN capable de classifier automatiquement des images de lésions cutanées pour distinguer différents types de cancer de la peau (et lésions bénignes) à partir du dataset HAM10000
+Une application web basée sur un modèle CNN capable de classifier automatiquement des images de lésions cutanées pour distinguer différents types de cancer de la peau (et lésions bénignes) à partir du dataset HAM10000
 
 ## Dataset
 - Nom du dataset : Skin Cancer MNIST: HAM10000
@@ -26,15 +26,15 @@ Nombre de classes : 7 catégories diagnostiques de lésions cutanées
 La classe nv représente près des deux tiers du dataset, tandis que certaines classes comme df ou vasc sont fortement sous-représentées. Ce déséquilibre peut influencer l’apprentissage des modèles, qui auront tendance à être biaisés vers les classes majoritaires.
 *Impli­ca­tions pour l’entraînement :
 Le déséquilibre appelle à utiliser des techniques telles que :
-la data augmentation des classes rares,
-la pondération par classes dans la fonction de perte,
-le resampling des données pour équilibrer les classes.
+1/ la data augmentation des classes rares
+2/ la pondération par classes dans la fonction de perte
+3/ le resampling des données pour équilibrer les classes
 *Diversité des lésions :
 Les images couvrent un large spectre de conditions dermatologiques, des lésions bénignes aux cancers agressifs, ce qui rend le dataset pertinent pour des tâches de classification multiclasses.
 
 ## Architecture du projet
+- Back-end : Python / FastAPI / API REST
+- Front-end : React.js / Type Script / Axios / Material UI
 - Données : images
-- Backend : Python / FastAPI
-- API REST
 - Visualisation : Dashboard
 ![Architecture](architecture.PNG)
