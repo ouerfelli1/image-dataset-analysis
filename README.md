@@ -25,3 +25,5 @@ Cette section présente une analyse descriptive du dataset d’images.
 - Backend : Python / FastAPI
 - API REST
 - Visualisation : Dashboard
+  
+![Architecture](archi.png.PNG)
